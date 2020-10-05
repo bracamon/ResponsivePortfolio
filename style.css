@@ -1,0 +1,12 @@
+.image-responsive {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 24px;
+}
