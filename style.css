@@ -2,6 +2,7 @@
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 p {
@@ -9,4 +10,31 @@ p {
     padding: 0;
     text-align: justify;
     line-height: 24px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+.portfolioImages {
+ float: left; 
+ display: block;
+ overflow: hidden;
+ position: relative;
+} 
+
+.birdsNest {
+    position: absolute;
+    left: -1000%;
+    right: -1000%;
+    top: -1000%;
+    bottom: -1000%;
+    margin: auto;
+    min-height: 100%;
+    min-width: 100%;
 }
